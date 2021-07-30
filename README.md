@@ -1,7 +1,7 @@
 # Web App with Python Flask!
 
-## Why Flask?<br/>
+## Why Flask?
 ![alt](images/img.png)
 
-Output of Initial Commit:<br/>
+### Output of Initial Commit:
 ![alt](images/img_1.png)
