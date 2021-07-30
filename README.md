@@ -1,5 +1,7 @@
 # Web App with Python Flask!
 
-Output of Initial Commit:
-![](images/img_1.png)
+## Why Flask?<br/>
+![alt](images/img.png)
 
+Output of Initial Commit:<br/>
+![alt](images/img_1.png)
