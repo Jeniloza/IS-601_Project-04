@@ -1,11 +1,13 @@
-from flask import Flask, render_template
+from flask import Flask, make_response
+
 
 # Create Flask's `app` object
-app = Flask(__name__, template_folder="templates")
+app = Flask(__name__)
 
 
 @app.route("/")
 def hello():
-    return render_template("index.html")
+    headers = {"Content-Type": "application/json"}
+    return make_response('it worked!', 200, headers)
 
 app.run(host='0.0.0.0', port=5000)
