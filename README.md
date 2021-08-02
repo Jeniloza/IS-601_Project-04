@@ -3,6 +3,8 @@
 ## Why Flask?
 ![alt](images/img.png)
 
+## Tutorial-1 : Creating Your First Flask Application
+
 ### Output of Initial Commit : Print "Hello World!":
 ![alt](images/img_1.png)
 
@@ -21,3 +23,11 @@
 ### Output of Commit: Create JSON responses, check out Flask's built-in jsonify() function. 
 jsonify() outputs a Python dict as JSON inline.
 ![alt](images/img_6.png) 
+
+## Tutorial-2 : Rendering Pages in Flask Using Jinja
+
+### Output of Commit: Rendering Pages in Flask Using Jinja.
+![alt](images/img_7.png) 
+
+## Tutorial-3 : Handling Forms in Flask with Flask-WTF
+
