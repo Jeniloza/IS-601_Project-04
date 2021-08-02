@@ -16,5 +16,8 @@
 ![alt](images/img_4.png)
 
 ### Output of Commit: Serving a Response as specify whether the route at hand is a POST, GET, or some other method.
-![alt](images/img_5.png)
+![alt](images/img_5.png) 
 
+### Output of Commit: Create JSON responses, check out Flask's built-in jsonify() function. 
+jsonify() outputs a Python dict as JSON inline.
+![alt](images/img_6.png) 
