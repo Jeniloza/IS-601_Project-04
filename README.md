@@ -34,3 +34,5 @@ jsonify() outputs a Python dict as JSON inline.
 ![alt](images/img_9.png) 
 ![alt](images/img_10.png) 
 ![alt](images/img_11.png) 
+![alt](images/img_12.png) 
+![alt](images/img_13.png) 
