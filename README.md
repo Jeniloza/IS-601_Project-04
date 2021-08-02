@@ -15,6 +15,6 @@
 ### Output of Commit : Other Parts of Flask's Core Library and Serving an HTML Page Template.!
 ![alt](images/img_4.png)
 
-### Output of Commit: Serving a Response as a make_response.
+### Output of Commit: Serving a Response as specify whether the route at hand is a POST, GET, or some other method.
 ![alt](images/img_5.png)
 
