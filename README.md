@@ -30,4 +30,7 @@ jsonify() outputs a Python dict as JSON inline.
 ![alt](images/img_7.png) 
 
 ## Tutorial-3 : Handling Forms in Flask with Flask-WTF
-
+![alt](images/img_8.png) 
+![alt](images/img_9.png) 
+![alt](images/img_10.png) 
+![alt](images/img_11.png) 
