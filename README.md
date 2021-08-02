@@ -8,3 +8,6 @@
 
 ### Output of Second Commit:!
 ![alt](images/img_2.png)
+
+### Output of Third Commit:!
+![alt](images/img_3.png)
