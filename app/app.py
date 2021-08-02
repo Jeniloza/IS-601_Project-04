@@ -1,16 +1,18 @@
-from flask import Flask, make_response, request, jsonify
-
+from flask import Flask, render_template
 
 # Create Flask's `app` object
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates")
 
 
-@app.route("/", methods=['GET'])
+@app.route("/")
 def hello():
-    if request.method != 'GET':
-        return make_response('Malformed request', 400)
-    my_dict = {'key': 'dictionary value'}
-    headers = {"Content-Type": "application/json"}
-    return make_response(jsonify(my_dict), 200, headers)
+    """Landing page."""
+    nav = [
+        {'name': 'Home', 'url': '#home'},
+        {'name': 'About', 'url': '#about'},
+        {'name': 'Contact', 'url': '#contact'}
+    ]
+    return render_template("index.html", nav=nav)
+
 
 app.run(host='0.0.0.0', port=5000)
