@@ -1,12 +1,11 @@
-from flask import Flask, Markup
-from logic import square_of_number_plus_nine
+from flask import Flask, render_template
 
 # Create Flask's `app` object
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates")
+
 
 @app.route("/")
 def hello():
-    return Markup("<h1>Hello World!</h1>")
-    # return "square of number five plus nine is " + str(square_of_number_plus_nine(5))
+    return render_template("index.html")
 
 app.run(host='0.0.0.0', port=5000)
