@@ -13,3 +13,11 @@
 
 ## Tutorial-2 : Rendering Pages in Flask Using Jinja.
 <br/>![alt](imgs/img_7.png)
+
+## Tutorial-3 : Handling Forms in Flask with Flask-WTF.
+<br/>![alt](imgs/img_8.png)
+<br/>![alt](imgs/img_9.png)
+<br/>![alt](imgs/img_10.png)
+<br/>![alt](imgs/img_11.png)
+<br/>![alt](imgs/img_12.png)
+<br/>![alt](imgs/img_13.png)
