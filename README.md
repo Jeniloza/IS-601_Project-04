@@ -35,3 +35,6 @@
 
 ## Tutorial-8 Compiling Frontend JavaScript & Stylesheets Flask.
 
+## Tutorial-9 Connect Flask to a Database with Flask-SQLAlchemy.
+<br/>![alt](imgs/img_17.png)
+
