@@ -28,3 +28,7 @@
 ## Tutorial-5 Configuring Your Flask App.
 <br/>![alt](imgs/img_15.png)
 
+## Tutorial-6 Demystifying Flask’s Application Factory.
+
+
+
