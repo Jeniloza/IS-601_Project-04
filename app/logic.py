@@ -1,3 +1,2 @@
-def square_of_number_plus_nine(a):
-    result = (int(a) ** int(2)) + int(9)
-    return result
+def square_of_number_plus_nine(num):
+    return num**2 + 9
