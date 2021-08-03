@@ -24,3 +24,7 @@
 
 ## Tutorial-4 The Art of Routing in Flask. 
 <br/>![alt](imgs/img_14.png)
+
+## Tutorial-5 Configuring Your Flask App.
+<br/>![alt](imgs/img_15.png)
+
