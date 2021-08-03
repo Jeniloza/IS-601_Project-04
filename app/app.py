@@ -1,57 +1,54 @@
-"""Routing."""
-from flask import current_app as app
-from flask import redirect, render_template, url_for
-from flask import Flask, render_template
-from forms import ContactForm, SignupForm
+from flask import Flask, Markup, render_template, make_response, request, jsonify
+from logic import square_of_number_plus_nine
 
+app = Flask(__name__)
 # Create Flask's `app` object
-app = Flask(__name__, template_folder="templates")
+app = Flask(
+    __name__,
+    instance_relative_config=False,
+    template_folder="templates",
+    static_folder="static"
+)
 
 
-@app.route("/")
-def home():
-    """Landing page."""
-    return render_template(
-        "index.jinja2",
-        template="home-template",
-        title="Flask-WTF tutorial"
-    )
+@app.route("/logic")
+def logic():
+    value = square_of_number_plus_nine(5)
+    return "The value of square of number five plus nine is " + str(value)
 
 
-@app.route("/contact", methods=["GET", "POST"])
-def contact():
-    """Standard `contact` form."""
-    form = ContactForm()
-    if form.validate_on_submit():
-        return redirect(url_for("success"))
-    return render_template(
-        "contact.jinja2",
-        form=form,
-        template="form-template",
-        title="Contact Form"
-    )
+@app.route("/markup")
+def markup():
+    return Markup("<h1>Hello World!</h1>")
 
 
-@app.route("/signup", methods=["GET", "POST"])
-def signup():
-    """User sign-up form for account creation."""
-    form = SignupForm()
-    if form.validate_on_submit():
-        return redirect(url_for("success"))
-    return render_template(
-        "signup.jinja2",
-        form=form,
-        template="form-template",
-        title="Signup Form"
-    )
+@app.route("/template")
+def hello_template():
+    return render_template("index.html")
 
 
-@app.route("/success", methods=["GET", "POST"])
-def success():
-    """Generic success page upon form submission."""
-    return render_template(
-        "success.jinja2",
-        template="success-template"
-    )
+@app.route("/response")
+def response():
+    headers = {"Content-Type": "application/json"}
+    return make_response('it worked!!', 200, headers)
 
-app.run(host='0.0.0.0', port=5000)
+
+@app.route("/get", methods=['GET'])
+def get_hello():
+    if request.method != 'GET':
+        return make_response('Malformed request', 400)
+    headers = {"Content-Type": "application/json"}
+    return make_response('it worked!!', 200, headers)
+
+
+@app.route("/", methods=['GET'])
+def hello():
+    if request.method != 'GET':
+        return make_response('Malformed request', 400)
+    my_dict = {'key': 'dictionary value'}
+    headers = {"Content-Type": "application/json"}
+    return make_response(jsonify(my_dict), 200, headers)
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', debug=True)
