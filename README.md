@@ -32,3 +32,6 @@
 
 ## Tutorial-7 Organizing Flask Apps with Blueprints
 <br/>![alt](imgs/img_16.png)
+
+## Tutorial-8 Compiling Frontend JavaScript & Stylesheets Flask.
+
