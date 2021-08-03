@@ -9,4 +9,4 @@ RUN pip install  -r requirements.txt --upgrade pip
 
 COPY . /flask-blueprint-tutorial
 
-CMD python api.py
+#CMD python app.py
