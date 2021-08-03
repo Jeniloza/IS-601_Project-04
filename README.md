@@ -21,3 +21,6 @@
 <br/>![alt](imgs/img_11.png)
 <br/>![alt](imgs/img_12.png)
 <br/>![alt](imgs/img_13.png)
+
+## Tutorial-4 The Art of Routing in Flask. 
+<br/>![alt](imgs/img_14.png)
