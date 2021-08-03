@@ -38,3 +38,5 @@
 ## Tutorial-9 Connect Flask to a Database with Flask-SQLAlchemy.
 <br/>![alt](imgs/img_17.png)
 
+## Tutorial-10 Handle User Accounts & Authentication in Flask with Flask-Login.
+<br/>![alt](imgs/img_17.png)
