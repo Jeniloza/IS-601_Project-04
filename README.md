@@ -1,5 +1,7 @@
 # Web App with Python Flask!
 
+[Link to References Directory](https://hackersandslackers.com/your-first-flask-application)
+
 ## Why Flask?
 ![alt](imgs/img.png)
 
@@ -28,19 +30,13 @@
 ## Tutorial-5 Configuring Your Flask App.
 <br/>![alt](imgs/img_15.png)
 
-## Tutorial-6 Demystifying Flask’s Application Factory.
-
 ## Tutorial-7 Organizing Flask Apps with Blueprints
 <br/>![alt](imgs/img_16.png)
-
-## Tutorial-8 Compiling Frontend JavaScript & Stylesheets Flask.
 
 ## Tutorial-9 Connect Flask to a Database with Flask-SQLAlchemy.
 <br/>![alt](imgs/img_17.png)
 
 ## Tutorial-10 Handle User Accounts & Authentication in Flask with Flask-Login.
 <br/>![alt](imgs/img_17.png)
-
-## Tutorial-11 Managing Session Data with Flask-Session & Redis.
 
 
