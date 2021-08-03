@@ -1,7 +1,7 @@
 # Web App with Python Flask!
 
 ## Why Flask?
-![alt](images/img.png)
+![alt](imgs/img.png)
 
 ## Tutorial-1 : Creating Your First Flask Application
 ![alt](imgs/img_1.png)
