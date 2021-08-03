@@ -3,8 +3,7 @@
 ## Why Flask?
 ![alt](imgs/img.png)
 
-
-## Tutorial-1 : Creating Your First Flask Application
+## Tutorial-1 : Creating Your First Flask Application.
 <br/>![alt](imgs/img_1.png)
 <br/>![alt](imgs/img_2.png)
 <br/>![alt](imgs/img_3.png)
@@ -12,3 +11,5 @@
 <br/>![alt](imgs/img_5.png)
 <br/>![alt](imgs/img_6.png)
 
+## Tutorial-2 : Rendering Pages in Flask Using Jinja.
+<br/>![alt](imgs/img_7.png)
