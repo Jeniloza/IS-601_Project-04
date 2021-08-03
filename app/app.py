@@ -2,6 +2,7 @@ from flask import Flask, Markup, render_template, make_response, request, jsonif
 from logic import square_of_number_plus_nine
 
 app = Flask(__name__)
+
 # Create Flask's `app` object
 app = Flask(
     __name__,
