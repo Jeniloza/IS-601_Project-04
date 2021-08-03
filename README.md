@@ -39,5 +39,7 @@
 ## Tutorial-10 Handle User Accounts & Authentication in Flask with Flask-Login.
 <br/>![alt](imgs/img_18.png)
 
+## Tutorial-11 Managing Session Data with Flask-Session & Redis.
+<br/>![alt](imgs/img_19.png)
 
 
