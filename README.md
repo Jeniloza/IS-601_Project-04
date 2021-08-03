@@ -37,7 +37,7 @@
 <br/>![alt](imgs/img_17.png)
 
 ## Tutorial-10 Handle User Accounts & Authentication in Flask with Flask-Login.
-<br/>![alt](imgs/img_17.png)
+<br/>![alt](imgs/img_18.png)
 
 
 
