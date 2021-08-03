@@ -9,4 +9,4 @@ RUN pip install  -r requirements.txt --upgrade pip
 
 COPY . /Flask_App_Factory
 
-CMD python config.py
+CMD python app.py
