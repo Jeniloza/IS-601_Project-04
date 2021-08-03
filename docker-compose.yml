@@ -10,3 +10,8 @@ services:
     container_name: "My_Flask_App2"
     ports:
       - "5001:5001"
+  app3:
+    build: ./Flask_WTForms_Tutorial/flask-wtforms-tutorial
+    container_name: "My_Flask_App3"
+    ports:
+      - "5002:5002"
