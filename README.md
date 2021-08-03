@@ -30,5 +30,5 @@
 
 ## Tutorial-6 Demystifying Flask’s Application Factory.
 
-
-
+## Tutorial-7 Organizing Flask Apps with Blueprints
+<br/>![alt](imgs/img_16.png)
